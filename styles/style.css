@@ -1,0 +1,25 @@
+/* orbitron */
+.orbitron{
+  font-family: "Orbitron", sans-serif;
+  font-weight: 900;
+}
+/* inter */
+.inter {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+}
+/* users given idea title */
+.card-h{
+ background-color: #260642;
+}
+
+/* footer */
+.font-color{
+  color: #ffc857;
+}
+.footer-p{
+  color:#bdc1a3;
+}
+.bg-p{
+  background-color: gray;
+}
