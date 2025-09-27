@@ -10,7 +10,7 @@
 }
 /* users given idea title */
 .card-h{
- background-color: #260642;
+ background-color: #282829;
 }
 
 /* footer */
@@ -22,4 +22,16 @@
 }
 .bg-p{
   background-color: gray;
+}
+/* backward section */
+.font-color1{
+color: #bdc1a3;
+padding: 30px 40px;
+}
+
+/* trash-bg */
+.trash-bg{
+  background-image: url('../mars-bg.jpg');
+  background-position: -50px bottom;
+  background-size: cover;
 }
