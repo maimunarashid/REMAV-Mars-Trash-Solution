@@ -8,10 +8,7 @@
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
-/* users given idea title */
-.card-h{
- background-color: #282829;
-}
+
 
 /* footer */
 .font-color{
@@ -33,3 +30,46 @@ padding: 30px 40px;
   background-position: -50px bottom;
   background-size: cover;
 }
+
+
+
+/* navbar menu */
+/* Basic navbar styling */
+.navbar {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.navbar li {
+  position: relative;
+}
+
+/* Hide dropdown by default */
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  list-style: none;
+  padding: 10px 0;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* Optional: style links */
+.dropdown-menu li a {
+  display: block;
+  padding: 8px 10px;
+  width: 150px;
+  color: white;
+}
+
+.dropdown-menu li a:hover {
+ text-decoration: underline;
+ color: gray;
+}
+
