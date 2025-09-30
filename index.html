@@ -33,25 +33,37 @@
           <!-- logo + name -->
         <div class="pl-[40px] flex">
           <img class="w-[60px] h-[60px]" src="navlogo.png">
-          <h1 class="orbitron text-white text-[20px]">REMAV</h1>
+          <!-- <h1 class="orbitron text-white text-[20px]">REMAV</h1> -->
         </div>
      </div>
 <!-- options in navbar -->
-     <div class="pr-[150px]">
+     <div class="flex pr-[50px]">
      <ul class="navbar">
                <!-- home in navbar -->
-  <li class="dropdown">
+  <li class="dropdown mr-[40px]">
     <a class="underline text-white hover:text-gray-400" href="index.html">Home</a>
   </li> 
       <!-- Trash in navbar -->
         <li class="dropdown">
-            <a class="underline text-white hover:text-gray-400" href="#">Trash</a>
+            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Trash</a>
                 <ul class="dropdown-menu">
                    <li><a href="home.html">Packaging Waste</a></li>
                    <li><a href="home2.html">Textile Waste</a></li>
                    <li><a href="home3.html">Structural Waste</a></li>
                 </ul>
          </li>
+         <!-- Solutions in navbar -->
+        <li class="dropdown">
+            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Solutions</a>
+                <ul class="dropdown-menu">
+                   <li><a href="home.html">Packaging Waste</a></li>
+                   <li><a href="home2.html">Textile Waste</a></li>
+                   <li><a href="home3.html">Structural Waste</a></li>
+                </ul>
+         </li>
+         <li class="dropdown mr-[40px]">
+    <a class="underline text-white hover:text-gray-400" href="index.html"><i class="fa-solid fa-user"></i>Log In</a>
+  </li> 
       </ul>
      </div> 
 
@@ -68,16 +80,17 @@
 <!-- /////////////////////////////////////////////////////////////////////////////////////// -->
  <div class="bg-white pb-[120px] pt-[20px]"> </div>
        <!-- About Remav -->
-<div class="bg-gray-100 pt-[20px] pb-[20px] flex justify-between items-center">
-  <div class="ml-[150px] mr-[40px]">
-    <h1 class="text-[40px] font-bold mb-[20px]">Mars isn’t just a planet of exploration. It’s becoming a planet of waste.</h1>
-    <p class="mb-[20px] inter text-gray-700">Over 7 tons of debris from robotic missions now lie scattered across its surface. This isn’t just broken metal parts, it includes packaging, textiles, and other materials that reflect our everyday impact.</p>
+<div class="bg-gray-100 pt-[20px] pb-[20px] flex justify-between ">
+  <div class="ml-[150px] mr-[40px] flex flex-col justify-center items-cente w-[50%]">
+    <h1 class="text-[30px] font-bold mb-[20px]">Mars isn’t just a planet of exploration. It’s becoming a planet of waste.</h1>
+    <p class="mb-[20px] inter text-gray-500">Over 7 tons of debris from robotic missions now lie scattered across its surface. This isn’t just broken metal parts, it includes packaging, textiles, and other materials that reflect our everyday impact.</p>
 
-    <p class="mb-[20px] inter text-gray-700">The REMAV team shows this problem by using real mission data and creative visuals. They take the trash left on Mars and turn it into a story that reminds us of our responsibility as space explorers. As future missions happen especially with humans going to Mars. The amount of waste will grow. Mars is a big place, but it’s still fragile, so every piece of trash counts.</p>
+    <p class="mb-[20px] inter text-gray-500">The REMAV team shows this problem by using real mission data and creative visuals. They take the trash left on Mars and turn it into a story that reminds us of our responsibility as space explorers. As future missions happen especially with humans going to Mars. The amount of waste will grow. Mars is a big place, but it’s still fragile, so every piece of trash counts.</p>
 
-<p class="mb-[20px] inter text-gray-700">REMAV doesn’t just show the trash. They transform it into treasure. Their goal is to create reusable and sustainable materials from this waste, helping us explore in a way that cares for the planet and the future. This is a reminder to think beyond just discovering Mars. We must explore carefully, because what we leave behind tells the story of humans in space.</p>
+<p class="mb-[20px] inter text-gray-500">REMAV doesn’t just show the trash. They transform it into treasure. Their goal is to create reusable and sustainable materials from this waste, helping us explore in a way that cares for the planet and the future. This is a reminder to think beyond just discovering Mars. We must explore carefully, because what we leave behind tells the story of humans in space.</p>
   </div>
-    <img class="mr-[150px] w-[400px] h-[300px]" src="trash.avif">
+    <div class="flex flex-col mt-[100px] mr-[150px] w-[50%px] h-[300px]"><img class=" w-[500px] h-[300px]" src="trash.avif">
+    <p class="text-right text-[10px] text-gray-500 pr-[10px]">Trash on mars | Twitter</p></div>
 </div>
 
 
@@ -95,31 +108,27 @@
               <h1 class="text-[20px] orbitron text-gray-500">Packaging Waste</h1>
               <p class="text-gray-400 mb-[20px]">Boxes, plastic wraps, and containers used to carry supplies. Once opened, they turn into lightweight trash that quickly piles up.</p>
               <!-- button 1 -->
-              <div class="flex justify-between">
                 <a href="home.html">
                   <button id="btn-1" type="button" class="p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">View Details</button>
                 </a>
-              </div>
+              
             </div>
                         <!-- card2 -->
             <div class="border-2 border-gray-100 [15px] p-6 shadow-lg">
               <h1 class="text-[20px] orbitron text-gray-500">Textile Waste</h1>
               <p class="text-gray-400 mb-[20px]">Clothes, blankets, and fabric wraps used during the mission. After use, they become soft but bulky trash that takes up space.</p>
                             <!-- button 2 -->
-              <div class="flex justify-between">
                 <a href="home2.html">
                   <button id="btn-2" type="button" class="p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">View Details</button>
                 </a>
-              </div>
             </div>
                         <!-- card3 -->
             <div class="border-2 border-gray-100 [15px] p-6 shadow-lg">
               <h1 class="text-[20px] orbitron text-gray-500">Structural Waste</h1>
               <p class="text-gray-400 mb-[20px]">Broken parts, damaged panels, and leftover building materials. These are hard and heavy items that are difficult to reuse.</p>
                             <!-- button 3 -->
-              <div class="flex justify-between">
-                <a href="home3.html"><button id="btn-3" type="button" class="p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">View Details</button></a>
-              </div>
+                <a href="home3.html">
+                  <button id="btn-3" type="button" class="p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">View Details</button></a>
             </div>
           </div>
         </div>
@@ -129,7 +138,126 @@
 
        <!-- here we keep trash category detail with "hidden tag but now we shift it in another home.html page" -->
       
+<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+ <div class="bg-white pt-[20px]"> </div>
 
+<!-- solutions explore section-->
+<div class="pt-[60px] pb-[60px] bg-gray-100 flex flex-col justify-center items-center sol-parent">
+<h1 class="text-center text-[25px] orbitron mb-[40px] text-gray-500 border-b">Explore Sustainable Solutions from Trash <br> For a Livable Mars</h1>
+
+
+<!-- new div -->
+<div class="card-scroll-wrapper">
+<!-- old div -->
+<div class="container">
+  <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                         <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+                 
+    </div>
+
+<!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+<!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+    <!-- cut -->
+        <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+    <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+    <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+    <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+
+        <!-- card -->
+    <div class="card">
+       <img class="card-img" src="trash.avif">
+                <div class="sol-card-content">
+                      <h1 class="sol-h1">Trash Name</h1>
+                          <div class="sol-p"><p class="mb-[10px]">about trash and to see its process see the solution Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum, error mollitia at sapiente quos pariatur.</p>
+                                 <a href="home2.html">
+                                     <button id="btn-2" type="button" class="sol-p p-2 rounded-lg bg-gray-200 text-gray-400 hover:text-black hover:border-gray-600">Explore</button>
+                                  </a></div>
+                 </div>
+    </div>
+    <!-- cut -->
+
+</div>
+
+  <!--old div  -->
+</div>
+<!-- new div -->
+
+  </div>
+
+ <div class="bg-white pb-[50px] pt-[50px]"> </div>
 
 <!-- ///////////////////////////////////////////////////////// ////////////////////////////////////////////// -->
 
@@ -148,8 +276,7 @@
       <h3 class="font-semibold mb-[8px]">Explore</h3>
       <ul class="mt-[4px]">
         <li><a href="/about" class="hover:underline hover:text-gray-500">About REMAV</a></li>
-        <li><a href="/team" class="hover:underline hover:text-gray-500">Our Team</a></li>
-        <li><a href="/contact" class="hover:underline hover:text-gray-500">Contact</a></li>
+        <li><a href="contact.html" class="hover:underline hover:text-gray-500">Team REMAV</a></li>
       </ul>
     </div>
 
@@ -157,9 +284,9 @@
     <div>
       <h3 class="font-semibold mb-[8px]">Resources</h3>
       <ul class="space-y-1">
-        <li><a href="/learning" class="hover:underline hover:text-gray-500">Trashes</a></li>
+        <li><a href="trash.html" class="hover:underline hover:text-gray-500">Trashes</a></li>
         <li><a href="/media" class="hover:underline hover:text-gray-500">Solutions</a></li>
-        <li><a href="/updates" class="hover:underline hover:text-gray-500">Latest Updates</a></li>
+        <li><a href="Blogs.html" class="hover:underline hover:text-gray-500">Latest Updates</a></li>
       </ul>
     </div>
 
@@ -167,9 +294,8 @@
     <div>
       <h3 class="font-semibold mb-[8px]">Legal</h3>
       <ul class="space-y-1">
-        <li><a href="/privacy" class="hover:underline hover:text-gray-500">Privacy Policy</a></li>
-        <li><a href="/accessibility" class="hover:underline hover:text-gray-500">Accessibility</a></li>
-        <li><a href="/terms" class="hover:underline hover:text-gray-500">Terms of Use</a></li>
+        <li><a href="privacy.html" class="hover:underline hover:text-gray-500">Privacy Policy</a></li>
+        <li><a href="t&c.html" class="hover:underline hover:text-gray-500">Terms of Use</a></li>
       </ul>
     </div>
   </div>
@@ -177,7 +303,7 @@
   <!-- Bottom Line -->
   <div class="mt-10 border-t border-gray-700 pt-4 text-center text-gray-500">
     <p>Page Last Updated: Sep 28, 2025</p>
-    <p>Editor: Maimuna Rashid | Responsible Official: REMAV Team</p>
+    <p>Editor: REMAV Team | Responsible Official: REMAV Team</p>
     <p>Copyright © 2025 ReMAV | Built for NASA Space Apps Challenge.Data & images courtesy of NASA and other open sources (Pixabay, Unsplash).</p>
   </div>
 </div>

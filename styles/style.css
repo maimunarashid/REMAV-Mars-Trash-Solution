@@ -46,7 +46,7 @@ padding: 30px 40px;
 }
 
 /* Hide dropdown by default */
-.dropdown-menu {
+.dropdown-menu, .card-content {
   display: none;
   position: absolute;
   top: 100%;
@@ -56,7 +56,7 @@ padding: 30px 40px;
 }
 
 /* Show dropdown on hover */
-.dropdown:hover .dropdown-menu {
+.dropdown:hover .dropdown-menu{
   display: block;
 }
 
@@ -72,4 +72,98 @@ padding: 30px 40px;
  text-decoration: underline;
  color: gray;
 }
+
+
+/* img hover */
+/* Hide dropdown by default */
+.card-content {
+  display: none;
+  position: absolute;
+}
+
+/* Show dropdown on hover */
+.sol-parent{
+box-shadow: 1px 1px 30px  rgb(195, 194, 194);
+}
+.card-img:hover .card-content{
+  display: block;
+}
+
+
+/* solution section explore  */
+.container{
+ display: grid;
+                  /* according to card number change grid */
+ grid-template-columns:repeat(4, 1fr);    
+ gap: 40px;
+}
+.card-img{
+  height: 300px;
+  width: 280px;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+.card{
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+
+.sol-card-content {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 45px;
+  padding: 10px;
+  box-sizing: border-box;
+  background: rgba(27, 27, 27, 0.5);
+  color: whitesmoke;
+  border-radius: 0 0 15px 15px;
+  transition: 0.5s ease;
+  overflow: hidden;
+}
+
+.sol-h1{
+  font-size: 18px;
+}
+
+.card:hover{
+  cursor: pointer;
+}
+
+.card:hover .sol-card-content{
+  height: 190px;
+  background: rgb(0, 0, 0, 0.5);
+  transform: scale(1.1) rotate(.1deg);
+}
+
+.card:hover .sol-h1{
+  color: #bdc1a3;
+}
+
+.card:hover .sol-p{
+  opacity: 1;
+  visibility: visible;
+}
+
+.sol-p {
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  font-size: 15px;
+  transition: 1s ease;
+}
+
+
+.card:hover .card-img{
+  transform: scale(1.1) rotate(.1deg);
+}
+
+
 

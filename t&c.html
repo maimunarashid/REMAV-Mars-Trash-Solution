@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMAV | Solution for Mars Waste and Space Sustainability</title>
+
+    <!-- Google Font - Orbitron + inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- TAILWINDCSS FILE LINK -->
+    <link rel="stylesheet" href="styles/tailwindcss.css">
+    <!-- TAILWINDCSS CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon -->
+     <link rel="shortcut icon" href="navlogo.png">
+      <!-- TailwindCSS -->
+       <script src="https://cdn.tailwindcss.com"></script>
+<script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            orbitron: ['Orbitron', 'sans-serif'],
+            inter: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            primaryGray: '#f0f2f5',
+            cardGray: '#e2e8f0',
+            hoverBlack: '#1a1a1a'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+
+
+<body class="bg-primaryGray text-gray-800 font-inter">
+     <!-- navbar -->
+<div class="flex justify-between items-center bg-[#282829]">
+     
+     <div class="flex justify-between items-center">
+          <!-- logo + name -->
+        <div class="pl-[40px] flex">
+          <img class="w-[60px] h-[60px]" src="navlogo.png">
+          <!-- <h1 class="orbitron text-white text-[20px]">REMAV</h1> -->
+        </div>
+     </div>
+<!-- options in navbar -->
+     <div class="flex pr-[50px]">
+     <ul class="navbar">
+               <!-- home in navbar -->
+  <li class="dropdown mr-[40px]">
+    <a class="underline text-white hover:text-gray-400" href="index.html">Home</a>
+  </li> 
+      <!-- Trash in navbar -->
+        <li class="dropdown">
+            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Trash</a>
+                <ul class="dropdown-menu">
+                   <li><a href="home.html">Packaging Waste</a></li>
+                   <li><a href="home2.html">Textile Waste</a></li>
+                   <li><a href="home3.html">Structural Waste</a></li>
+                </ul>
+         </li>
+         <!-- Solutions in navbar -->
+        <li class="dropdown">
+            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Solutions</a>
+                <ul class="dropdown-menu">
+                   <li><a href="home.html">Packaging Waste</a></li>
+                   <li><a href="home2.html">Textile Waste</a></li>
+                   <li><a href="home3.html">Structural Waste</a></li>
+                </ul>
+         </li>
+         <li class="dropdown mr-[40px]">
+    <a class="underline text-white hover:text-gray-400" href="index.html"><i class="fa-solid fa-user"></i>Log In</a>
+  </li> 
+      </ul>
+     </div> 
+
+</div>
+
+<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
+
+      <!-- statement with mars -->
+       <div class="trash-bg">
+        <h1 class="orbitron text-[40px] text-white ml-[150px] pt-[80px]">Mars</h1>
+        <h1 class="orbitron ml-[150px] pb-[80px] text-[18px] text-white w-[400px]">Mars is the fourth planet from the Sun, and the seventh largest. It’s the only planet we know of inhabited entirely by robots.</h1>
+       </div>
+
+  <!-- Header -->
+  <header class="text-center py-16 bg-white shadow-md">
+    <h1 class="orbitron text-5xl mb-4 text-gray-900 tracking-wide">Terms & Conditions</h1>
+    <p class="text-gray-600 max-w-3xl mx-auto text-lg leading-relaxed">
+      Please read these terms and conditions carefully before using the REMAV website.
+    </p>
+  </header>
+
+  <!-- Terms Content -->
+  <section class="max-w-5xl mx-auto py-16 px-6 space-y-12">
+
+    <!-- Card Template -->
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">1. Acceptance of Terms</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed">
+        By accessing and using the REMAV website, you agree to comply with and be bound by these Terms and Conditions. If you do not agree, please do not use the website.
+      </p>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">2. User Obligations</h2>
+      <ul class="list-disc list-inside text-gray-700 group-hover:text-white space-y-2">
+        <li>You must provide accurate and truthful information when interacting with our website.</li>
+        <li>You agree not to misuse the website or its content for unlawful purposes.</li>
+        <li>Users are responsible for maintaining the confidentiality of their account credentials, if applicable.</li>
+      </ul>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">3. Intellectual Property</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed">
+        All content, graphics, logos, and intellectual property on the REMAV website are owned by REMAV or its licensors. You may not reproduce, distribute, or modify content without prior written permission.
+      </p>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">4. Limitation of Liability</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed">
+        REMAV is not responsible for any damages, direct or indirect, resulting from the use or inability to use the website, including but not limited to data loss or business interruptions.
+      </p>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">5. Third-Party Links</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed">
+        Our website may contain links to third-party websites. REMAV does not endorse or assume responsibility for any content, products, or services available on those external sites.
+      </p>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">6. Governing Law</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed">
+        These Terms and Conditions are governed by and construed in accordance with the laws applicable in the country of REMAV's operation.
+      </p>
+    </div>
+
+    <div class="group bg-white p-8 rounded-2xl shadow-md hover:bg-hoverBlack transition-all duration-300">
+      <h2 class="orbitron text-2xl mb-4 text-gray-900 group-hover:text-white">7. Contact Us</h2>
+      <p class="text-gray-700 group-hover:text-white leading-relaxed mb-2">
+        For questions regarding these Terms and Conditions, please contact us:
+      </p>
+      <p class="text-gray-700 group-hover:text-white"><i class="fas fa-envelope mr-2"></i> <a href="mailto:contact@remav.com" class="text-blue-600 hover:underline group-hover:text-white">contact@remav.com</a></p>
+    </div>
+
+  </section>
+
+     <!-- footer -->
+         <div class="bg-black text-white text-sm px-6 py-10">
+  <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
+    
+    <!-- Logo & Mission -->
+    <div>
+      <img src="navlogo.png" class="w-[80px] mb-[18px]">
+      <p class="text-gray-400">Red Mars. Clean Future.</p>
+    </div>
+
+    <!-- Navigation Links -->
+    <div>
+      <h3 class="font-semibold mb-[8px]">Explore</h3>
+      <ul class="mt-[4px]">
+        <li><a href="/about" class="hover:underline hover:text-gray-500">About REMAV</a></li>
+        <li><a href="contact.html" class="hover:underline hover:text-gray-500">Team REMAV</a></li>
+      </ul>
+    </div>
+
+    <!-- Resources -->
+    <div>
+      <h3 class="font-semibold mb-[8px]">Resources</h3>
+      <ul class="space-y-1">
+        <li><a href="trash.html" class="hover:underline hover:text-gray-500">Trashes</a></li>
+        <li><a href="/media" class="hover:underline hover:text-gray-500">Solutions</a></li>
+        <li><a href="Blogs.html" class="hover:underline hover:text-gray-500">Latest Updates</a></li>
+      </ul>
+    </div>
+
+    <!-- Legal & Admin -->
+    <div>
+      <h3 class="font-semibold mb-[8px]">Legal</h3>
+      <ul class="space-y-1">
+        <li><a href="privacy.html" class="hover:underline hover:text-gray-500">Privacy Policy</a></li>
+        <li><a href="t&c.html" class="hover:underline hover:text-gray-500">Terms of Use</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Line -->
+  <div class="mt-10 border-t border-gray-700 pt-4 text-center text-gray-500">
+    <p>Page Last Updated: Sep 28, 2025</p>
+    <p>Editor: REMAV Team | Responsible Official: REMAV Team</p>
+    <p>Copyright © 2025 ReMAV | Built for NASA Space Apps Challenge.Data & images courtesy of NASA and other open sources (Pixabay, Unsplash).</p>
+  </div>
+</div>
+
+</body>
+</html>
