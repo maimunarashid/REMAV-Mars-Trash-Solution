@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REMAV | Solution for Mars Waste and Space Sustainability</title>
+
+    <!-- Google Font - Orbitron + inter-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif+JP:wght@200..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+
+    <!-- CSS FILE LINK -->
+    <link rel="stylesheet" href="styles/style.css">
+    <!-- TAILWINDCSS FILE LINK -->
+    <link rel="stylesheet" href="styles/tailwindcss.css">
+    <!-- TAILWINDCSS CDN LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- FONT AWESOME LINK -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- favicon -->
+     <link rel="shortcut icon" href="navlogo.png">
+       <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            orbitron: ['Orbitron', 'sans-serif'],
+            inter: ['Inter', 'sans-serif'],
+          },
+          colors: {
+            darkBg: '#000000',
+            grayText: '#9CA3AF'
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+    <div class="min-h-screen flex items-center justify-center bg-gray-900">
+  <form class="bg-gray-800 p-8 rounded-lg shadow-md w-full max-w-sm">
+    <h2 class="text-white text-2xl font-semibold mb-6 text-center">Login</h2>
+
+    <label class="block text-gray-300 mb-2" for="email">Email</label>
+    <input type="email" id="email" name="email" required
+      class="w-full px-4 py-2 mb-4 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+    <label class="block text-gray-300 mb-2" for="password">Password</label>
+    <input type="password" id="password" name="password" required
+      class="w-full px-4 py-2 mb-6 bg-gray-700 text-white rounded focus:outline-none focus:ring-2 focus:ring-blue-500">
+
+    <button type="submit"
+      class="w-full bg-blue-600 hover:bg-blue-700 text-white font-semibold py-2 rounded transition duration-200">
+      Log In
+    </button>
+
+    <p class="text-gray-400 text-sm mt-4 text-center">
+      Don't have an account?
+      <a href="signup.html" class="text-blue-400 hover:underline">Sign up</a>
+    </p>
+  </form>
+</div>
+
+</body>
+</html>
