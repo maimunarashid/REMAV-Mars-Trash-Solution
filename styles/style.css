@@ -1,16 +1,14 @@
-/* orbitron */
 .orbitron{
   font-family: "Orbitron", sans-serif;
   font-weight: 900;
 }
-/* inter */
+
 .inter {
   font-family: "Inter", sans-serif;
   font-weight: 400;
 }
 
 
-/* footer */
 .font-color{
   color: #ffc857;
 }
@@ -18,23 +16,21 @@
 .bg-p{
   background-color: gray;
 }
-/* backward section */
+
 .font-color1{
 color: #bdc1a3;
 padding: 30px 40px;
 }
 
-/* trash-bg */
+
 .trash-bg{
   background-image: url('../mars-bg.jpg');
-  background-position: -50px bottom;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  height: 380px;
   background-size: cover;
 }
 
-
-
-/* navbar menu */
-/* Basic navbar styling */
 .navbar {
   list-style: none;
   display: flex;
@@ -45,8 +41,7 @@ padding: 30px 40px;
   position: relative;
 }
 
-/* Hide dropdown by default */
-.dropdown-menu, .card-content {
+.card-content {
   display: none;
   position: absolute;
   top: 100%;
@@ -55,45 +50,18 @@ padding: 30px 40px;
   padding: 10px 0;
 }
 
-/* Show dropdown on hover */
-.dropdown:hover .dropdown-menu{
-  display: block;
-}
-
-/* Optional: style links */
-.dropdown-menu li a {
-  display: block;
-  padding: 8px 10px;
-  width: 150px;
-  color: white;
-}
-
-.dropdown-menu li a:hover {
- text-decoration: underline;
- color: gray;
-}
-
-
-/* img hover */
-/* Hide dropdown by default */
 .card-content {
   display: none;
   position: absolute;
 }
 
-/* Show dropdown on hover */
-.sol-parent{
-box-shadow: 1px 1px 30px  rgb(195, 194, 194);
-}
 .card-img:hover .card-content{
   display: block;
 }
 
 
-/* solution section explore  */
 .container{
  display: grid;
-                  /* according to card number change grid */
  grid-template-columns:repeat(4, 1fr);    
  gap: 40px;
 }
@@ -160,10 +128,10 @@ box-shadow: 1px 1px 30px  rgb(195, 194, 194);
   transition: 1s ease;
 }
 
-
 .card:hover .card-img{
   transform: scale(1.1) rotate(.1deg);
 }
+
 
 
 

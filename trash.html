@@ -24,9 +24,9 @@
      <link rel="shortcut icon" href="navlogo.png">
 </head>
 
-<body class="bg-black">
 
-     <!-- navbar -->
+<body class="bg-black text-white overflow-x-hidden bg-[url('../trash-category-bg.jpg')] bg-center">
+<!-- navbar start///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
 <div class="flex justify-between items-center bg-[#282829]">
      
      <div class="flex justify-between items-center">
@@ -40,27 +40,77 @@
      <div class="flex pr-[50px]">
      <ul class="navbar">
                <!-- home in navbar -->
-  <li class="dropdown mr-[40px]">
+  <li class="relative mr-[40px]">
     <a class="underline text-white hover:text-gray-400" href="index.html">Home</a>
   </li> 
       <!-- Trash in navbar -->
-        <li class="dropdown">
-            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Trash</a>
-                <ul class="dropdown-menu">
-                   <li><a href="home.html">Packaging Waste</a></li>
-                   <li><a href="home2.html">Textile Waste</a></li>
-                   <li><a href="home3.html">Structural Waste</a></li>
-                </ul>
-         </li>
+        <li class="relative group">
+            <a class="underline text-white hover:text-gray-400 mr-[40px] group-hover:flex" href="#">Trash</a>
+                  <ul class="hidden absolute top-5 -left-[190px] bg-gray-800 p-[15px] gap-0 overflow-x-auto z-[999] box-border whitespace-nowrap overflow-hidden flex group-hover:flex">
+                       <!-- Packaging Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Packaging Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Plastic Bottles</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Food Wrappers</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Cans</a></li>
+      </ul>
+    </li>
+    <!-- Textile Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Textile Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Cotton Scraps</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Synthetic Fibers</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Dye Residue</a></li>
+      </ul>
+    </li>
+
+    <!-- Structural Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Structural Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Metal Frames</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Broken Panels</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Insulation Debris</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
          <!-- Solutions in navbar -->
-        <li class="dropdown">
-            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Solutions</a>
-                <ul class="dropdown-menu">
-                   <li><a href="home.html">Packaging Waste</a></li>
-                   <li><a href="home2.html">Textile Waste</a></li>
-                   <li><a href="home3.html">Structural Waste</a></li>
-                </ul>
-         </li>
+<li class="relative group">
+            <a class="underline text-white hover:text-gray-400 mr-[40px]" href="#">Solution</a>
+                  <ul class="hidden absolute top-5 -left-[190px] bg-gray-800 p-[15px] gap-0 overflow-x-auto z-[999] box-border whitespace-nowrap overflow-hidden flex group-hover:flex">
+                       <!-- Packaging Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Packaging Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Plastic Bottles</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Food Wrappers</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Cans</a></li>
+      </ul>
+    </li>
+    <!-- Textile Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Textile Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Cotton Scraps</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Synthetic Fibers</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Dye Residue</a></li>
+      </ul>
+    </li>
+
+    <!-- Structural Waste -->
+    <li class="w-[150px]">
+      <h4 class="font-bold text-[#bdc1a3] mb-[4px] text-[14px]">Structural Waste</h4>
+      <ul>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Metal Frames</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Broken Panels</a></li>
+        <li><a class="block px-[10px] py-[8px] w-[150px] text-white hover:underline hover:text-gray-400" href="#">Insulation Debris</a></li>
+      </ul>
+    </li>
+  </ul>
+</li>
          <li class="dropdown mr-[40px]">
     <a class="underline text-white hover:text-gray-400" href="index.html"><i class="fa-solid fa-user"></i>Log In</a>
   </li> 
@@ -68,18 +118,13 @@
      </div> 
 
 </div>
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->
-
-      <!-- statement with mars -->
-       <div class="trash-bg">
-        <h1 class="orbitron text-[40px] text-white ml-[150px] pt-[80px]">Mars</h1>
-        <h1 class="orbitron ml-[150px] pb-[80px] text-[18px] text-white w-[400px]">Mars is the fourth planet from the Sun, and the seventh largest. It’s the only planet we know of inhabited entirely by robots.</h1>
+<!-- navbar done ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+<!-- statement with mars -->
+       <div class="trash-bg mb-[140px]">
+        <h1 class="orbitron text-[25px] text-gray-300 ml-[150px] pt-[100px] w-[200px] mb-[20px]">Recycling isn’t optional<br>It’s survival</h1>
+        <p class="inter ml-[150px] pb-[80px] text-[15px] text-gray-400 w-[400px]">On Mars, every piece of waste is a chance to reuse and survive. Recycling isn’t optional, it’s essential.</p>
        </div>
-
-
-
-<!-- /////////////////////////////////////////////////////////////////////////////////////// -->       
+<!-- /////////////////////////////////////////////////////////////////////////////////////// -->    
 
 
        <!-- Mars Trash Categories -->
@@ -460,7 +505,7 @@
 <!-- ///////////////////////////////////////////////////////// ////////////////////////////////////////////// -->
 
      <!-- footer -->
-         <div class="bg-black text-white text-sm px-6 py-10">
+         <div class="bg-black text-white text-sm px-6 py-10 mt-[100px] border-t">
   <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6">
     
     <!-- Logo & Mission -->
