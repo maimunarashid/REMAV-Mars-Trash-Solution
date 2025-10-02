@@ -8,39 +8,6 @@
   font-weight: 400;
 }
 
-
-.font-color{
-  color: #ffc857;
-}
-
-.bg-p{
-  background-color: gray;
-}
-
-.font-color1{
-color: #bdc1a3;
-padding: 30px 40px;
-}
-
-
-.trash-bg{
-  background-image: url('../mars-bg.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  height: 380px;
-  background-size: cover;
-}
-
-.navbar {
-  list-style: none;
-  display: flex;
-  gap: 20px;
-}
-
-.navbar li {
-  position: relative;
-}
-
 .card-content {
   display: none;
   position: absolute;
