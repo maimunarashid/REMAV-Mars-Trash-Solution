@@ -1,6 +1,6 @@
 <div align="center">
 
-<h3>⚠️ Project Notice</h3>
+<h3>⚠️ Project Moved</h3>
 
 <p><strong>This repository is no longer maintained due to technical updates.</strong><br>
 Please visit the updated and active repository here:<br>
